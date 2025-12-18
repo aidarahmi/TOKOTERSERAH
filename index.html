@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TOKO TERSERAH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="produk.html">Produk</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="kontak.html">Kontak</a>
+</nav>
+
+<section class="hero">
+  <h1>Selamat Datang di TOKO TERSERAH</h1>
+  <p>Menjual Berbagai Pakaian Wanita Dengan Harga Terjangkau dan Kualitas Terbaik.</p>
+</section>
+
+  
+  </a>
+</div>
+  <!-- SECTION PRODUK UNGGULAN -->
+<div class="home-produk">
+
+  <div class="produk-container">
+
+    <div class="produk">
+  <img src="img/baju1.jpeg">
+
+  <h3>Women Shirt</h3>
+  <p class="harga">Rp125.000</p>
+
+  <a href="https://wa.me/6283844993614?text=Halo%20saya%20mau%20beli%20Women%20Shirt" target="_blank">
+    <button>Beli</button>
+  </a>
+</div>
+
+
+<div class="produk">
+  <img src="img/baju2.jpeg">
+
+  <h3>Knitted Cardigan</h3>
+  <p class="harga">Rp120.000</p>
+
+  <a href="https://wa.me/6283844993614?text=Halo%20saya%20mau%20beli%20Knitted%20Cardigan" target="_blank">
+    <button>Beli</button>
+  </a>
+</div>
+
+
+<div class="produk">
+  <img src="img/baju3.jpeg">
+
+  <h3>Sweater</h3>
+  <p class="harga">Rp150.000</p>
+
+  <a href="https://wa.me/6283844993614?text=Halo%20saya%20mau%20beli%20Sweater" target="_blank">
+    <button>Beli</button>
+  </a>
+</div>
+
+  </div>
+
+  <div class="lihat-semua">
+    <a href="produk.html">
+      <button>Lihat Semua Produk</button>
+    </a>
+  </div>
+</body>
+<h2>Hubungi Kami</h2>
+
+<form onsubmit="kirimWA(); return false;">
+  <input type="text" id="nama" placeholder="Nama Anda" required><br><br>
+  <input type="text" id="pesan" placeholder="Pesan Anda" required><br><br>
+  <button type="submit">Kirim ke WhatsApp</button>
+</form>
+
+<script>
+function kirimWA() {
+  var nama = document.getElementById("nama").value;
+  var pesan = document.getElementById("pesan").value;
+
+  var url = "https://wa.me/6283844993614?text=Halo,%20nama%20saya%20" 
+            + nama + "%20-%20" + pesan;
+
+  window.open(url, "_blank");
+}
+</script>
+
+</script>
+
+</body>
+</html>
+
